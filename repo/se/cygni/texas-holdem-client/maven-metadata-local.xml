@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>se.cygni</groupId>
+  <artifactId>texas-holdem-client</artifactId>
+  <versioning>
+    <versions>
+      <version>0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120901212408</lastUpdated>
+  </versioning>
+</metadata>
