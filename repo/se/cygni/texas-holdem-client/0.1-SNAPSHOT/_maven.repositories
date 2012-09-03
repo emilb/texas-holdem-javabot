@@ -1,6 +1,7 @@
 #NOTE: This is an internal implementation file, its format can be changed without prior notice.
-#Sat Sep 01 23:24:08 CEST 2012
+#Mon Sep 03 14:51:35 CEST 2012
 texas-holdem-client-0.1-SNAPSHOT.pom>=
 texas-holdem-client-0.1-SNAPSHOT-jar-with-dependencies.jar>=
+texas-holdem-client-0.1-SNAPSHOT.pom>project.local=
 texas-holdem-client-0.1-SNAPSHOT-sources.jar>=
 texas-holdem-client-0.1-SNAPSHOT.jar>=
