@@ -8,6 +8,7 @@ import se.cygni.texasholdem.communication.message.event.*;
 import se.cygni.texasholdem.communication.message.request.ActionRequest;
 import se.cygni.texasholdem.game.Action;
 import se.cygni.texasholdem.game.Card;
+import se.cygni.texasholdem.game.GamePlayer;
 import se.cygni.texasholdem.game.Room;
 import se.cygni.texasholdem.game.definitions.Rank;
 
@@ -144,7 +145,7 @@ public class FullyImplementedBot implements Player {
         CurrentPlayState playState = playerClient.getCurrentPlayState();
         long currentBB = playState.getBigBlind();
 
-        for (se.cygni.texasholdem.game.Player player : playState.getPlayers()) {
+        for (GamePlayer player : playState.getPlayers()) {
             if (playState.getInvestmentInPotFor(player) >= currentBB * 4) {
                 someOneHasBetAlot = true;
                 break;
