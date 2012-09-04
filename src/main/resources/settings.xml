@@ -1,0 +1,50 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+
+  <mirror>  
+    <id>central</id>  
+    <mirrorOf>*</mirrorOf>  
+    <url>http://192.168.10.1/maven/</url> 
+  </mirror>
+
+  <profiles>
+    <profile>
+       <id>conference-profile</id>
+       <activation>
+          <activeByDefault>true</activeByDefault>
+       </activation>
+       
+       <repositories>
+            <repository>
+              <id>central-deps</id>
+              <name>conference-deps</name>
+              <url>http://192.168.10.1/maven/</url>
+              <layout>default</layout>
+              <releases>
+                <enabled>true</enabled>
+              </releases>
+              <snapshots>
+                <enabled>true</enabled>
+              </snapshots>
+            </repository>
+        </repositories>
+        <pluginRepositories>
+            <pluginRepository>
+                <id>central-plugins</id>
+                <name>conference-plugins</name>
+                <url>http://192.168.10.1/maven/</url>
+                <releases>
+                  <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                  <enabled>true</enabled>
+                </snapshots>
+            </pluginRepository>
+        </pluginRepositories>       
+    </profile>
+  </profiles>
+
+</settings>

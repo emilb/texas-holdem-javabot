@@ -170,11 +170,11 @@
             <url>file:${project.basedir}/repo</url>
         </repository>
 
-        <!-- Activate this Repo if instructed to do so during session
+        <!-- Activate this Repo if instructed to do so during session 
         <repository>
             <id>conference.local</id>
             <name>conference</name>
-            <url>http://192.168.0.1/repo</url>
+            <url>http://192.168.10.1/maven</url>
         </repository>
         -->
     </repositories>
