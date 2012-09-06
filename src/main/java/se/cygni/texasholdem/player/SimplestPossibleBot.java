@@ -76,7 +76,7 @@ public class SimplestPossibleBot extends BasicPlayer {
     }
 
     public static void main(String... args) {
-        SimplestPossibleBot bot = new SimplestPossibleBot("192.168.0.1", 4711);
+        SimplestPossibleBot bot = new SimplestPossibleBot("192.168.10.100", 4711);
 
         try {
             bot.playATrainingGame();

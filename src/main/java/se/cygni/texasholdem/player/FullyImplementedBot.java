@@ -236,7 +236,7 @@ public class FullyImplementedBot implements Player {
     }
 
     public static void main(String... args) {
-        FullyImplementedBot bot = new FullyImplementedBot("192.168.0.1", 4711);
+        FullyImplementedBot bot = new FullyImplementedBot("192.168.10.100", 4711);
 
         try {
             bot.playATrainingGame();

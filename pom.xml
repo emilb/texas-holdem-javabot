@@ -174,7 +174,7 @@
         <repository>
             <id>conference.local</id>
             <name>conference</name>
-            <url>http://192.168.10.1/maven</url>
+            <url>http://192.168.10.100/maven</url>
         </repository>
         -->
     </repositories>
