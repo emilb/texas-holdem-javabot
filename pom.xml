@@ -54,13 +54,13 @@
         <dependency>
             <groupId>se.cygni</groupId>
             <artifactId>texas-holdem-common</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>se.cygni</groupId>
             <artifactId>texas-holdem-client</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
 
         <!-- Utils from commons -->
@@ -162,21 +162,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>project.local</id>
-            <name>project</name>
-            <url>file:${project.basedir}/repo</url>
-        </repository>
-
-        <!-- Activate this Repo if instructed to do so during session 
-        <repository>
-            <id>conference.local</id>
-            <name>conference</name>
-            <url>http://192.168.10.100/maven</url>
-        </repository>
-        -->
-    </repositories>
 
 </project>
