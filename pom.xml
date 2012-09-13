@@ -163,4 +163,10 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>poker.cygni.s</id>
+            <url>http://poker.cygni.se/maven2</url>
+        </repository>
+    </repositories>
 </project>
